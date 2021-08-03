@@ -1,10 +1,5 @@
 # DP
 Notes made when studying dynamic programming <br/>
-***
-涉及题单<br>
-背包问题：洛谷 背包问题（简单）https://www.luogu.com.cn/training/8917<br>
-区间DP：洛谷可达部落 区间动态规划 https://www.luogu.com.cn/training/55511#problems
-Mark: www.oi-wiki.org
 ### 01. 背包问题
 强烈推荐 背包九讲 https://www.kancloud.cn/kancloud/pack/70124
 #### 基本思想
@@ -13,3 +8,7 @@ Mark: www.oi-wiki.org
 #### 01背包
 #### 完全背包
 ### 02. 区间DP
+### 涉及题单<br>
+背包问题：洛谷 背包问题（简单）https://www.luogu.com.cn/training/8917<br>
+区间DP：洛谷可达部落 区间动态规划 https://www.luogu.com.cn/training/55511#problems <br>
+Mark: www.oi-wiki.org
