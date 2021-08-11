@@ -14,7 +14,7 @@ Notes made when studying dynamic programming
 ### 02. 区间DP
 #### 状态转移方程
 求累计价值的最大值时：用f[i][j]表示在区间[i,j]中可以取到的最大值，k∈[i,j]表示枚举的合并点，则  
-***f[i][j]=max( f[i][j], f[i][k]+f[k+1][j]+cost )***  
+$***f[i][j]=max( f[i][j], f[i][k]+f[k+1][j]+cost )***$  
 #### 常见问题类型  
 绝对会出现的游戏中的操作：
 **合并**  
