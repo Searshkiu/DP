@@ -1,5 +1,7 @@
 # DP
+---
 Notes made when studying dynamic programming  
+---
 ### 01. 背包问题
 强烈推荐 [背包九讲](https://www.kancloud.cn/kancloud/pack/70124)
 #### 基本思想
@@ -7,6 +9,7 @@ Notes made when studying dynamic programming
 问题特点：对于每件物品有有限种状态，通过枚举每件物品的状态，以最值推最值
 #### 01背包
 #### 完全背包
+---
 ### 02. 区间DP
 #### 状态转移方程
 求累计价值的最大值时：用f[i][j]表示在区间[i,j]中可以取到的最大值，k∈[i,j]表示枚举的合并点，则  
@@ -18,7 +21,7 @@ Notes made when studying dynamic programming
 例如最经典的石子合并和[P4302 [SCOI2003]字符串折叠](https://www.luogu.com.cn/problem/P4302)（折叠是有特殊条件的合并，这道题也跟回文有关）  
 **或分离**  
 
-Ⅰ串  
+对于串  
 两头进行加删操作 计数最值题 例如[P3205 [HNOI2010]合唱队](https://www.luogu.com.cn/problem/P3205)和[P1005 [NOIP2007 提高组] 矩阵取数游戏](https://www.luogu.com.cn/problem/P1005)  
 or 与回文有关的操作最值 例如[P4170 [CQOI2007]涂色](https://www.luogu.com.cn/problem/P4170)
   
