@@ -1,7 +1,5 @@
 # DP
----
 Notes made when studying dynamic programming  
----
 ### 01. 背包问题
 强烈推荐 [背包九讲](https://www.kancloud.cn/kancloud/pack/70124)
 #### 基本思想
@@ -21,11 +19,14 @@ Notes made when studying dynamic programming
 例如最经典的石子合并和[P4302 [SCOI2003]字符串折叠](https://www.luogu.com.cn/problem/P4302)（折叠是有特殊条件的合并，这道题也跟回文有关）  
 **或分离**  
 
-对于串  
+对于串：  
 两头进行加删操作 计数最值题 例如[P3205 [HNOI2010]合唱队](https://www.luogu.com.cn/problem/P3205)和[P1005 [NOIP2007 提高组] 矩阵取数游戏](https://www.luogu.com.cn/problem/P1005)  
 or 与回文有关的操作最值 例如[P4170 [CQOI2007]涂色](https://www.luogu.com.cn/problem/P4170)
   
 注意检查转移前后的状态是否**有意义**，如LGR [P3146 [USACO16OPEN]248 G](https://www.luogu.com.cn/problem/P3146) 这道题里面，如果分段的两部分函数值相等，有两种情况：一种是确实合并完得到的函数值相等，一种是没有合并过，二者的函数值都为0.
+
+---
+
 ### 涉及题单  
 背包问题：洛谷 [背包问题（简单）](https://www.luogu.com.cn/training/8917)  
 区间DP：洛谷 [可达部落 区间动态规划](https://www.luogu.com.cn/training/55511#problems)  
