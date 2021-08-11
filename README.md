@@ -1,5 +1,8 @@
 # DP
 Notes made when studying dynamic programming  
+
+---
+
 ### 01. 背包问题
 强烈推荐 [背包九讲](https://www.kancloud.cn/kancloud/pack/70124)
 #### 基本思想
