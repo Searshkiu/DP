@@ -39,7 +39,9 @@ or 与回文有关的操作最值 例如[P4170 [CQOI2007]涂色](https://www.luo
 ---
 ### 04.状态压缩DP
 ---
-
+### DP优化
+#### 矩阵加速
+矩阵乘法示意图：![矩](https://img2018.cnblogs.com/blog/1749451/201908/1749451-20190826113709947-2107024256.png "矩阵乘法示意图")
 ### 涉及题单  
 背包问题：洛谷 [背包问题（简单）](https://www.luogu.com.cn/training/8917)  
 区间DP：洛谷 [可达部落 区间动态规划](https://www.luogu.com.cn/training/55511#problems)  
